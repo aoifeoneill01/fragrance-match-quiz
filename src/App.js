@@ -122,7 +122,7 @@ const quiz =
   var b = [];
   var c = [];
 
-  results.filter((values) => {
+  results.forEach((values) => {
     if(values === 'a'){
      return a.push(values);
     } 
